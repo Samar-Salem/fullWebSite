@@ -1,0 +1,292 @@
+*{
+    overflow: ;
+}
+
+
+.active1
+{
+    color: #f25454 !important ;
+}
+.navbar{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.nav-link:hover{
+    color: #e65f78;
+}
+
+.nav-link
+{
+    color: #fff;
+}
+.setting-icon
+{
+    font-size: 1rem;
+    position: fixed;
+    top: 8rem;
+   z-index: 222222;
+}
+.carousel-caption
+ {
+    bottom: 10rem;
+    height: 40%;
+}
+.carousel-caption h1 
+{
+     font-size: 4rem;
+    
+}
+.carousel-control-next{
+    top: 20.8rem;
+    right: 95%;
+}
+.carousel-control-prev{
+    top: 17.5rem;
+}
+
+.slider-arrow{
+    left: 0;
+    background-color: transparent;
+    border: 1px solid #fff;
+    height: 7%;
+    width: 4%;
+}
+.slider-arrow:hover .overlay{
+    width: 100%;
+}
+.overlay{
+    background-color: #fff;
+    width:0%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: width 0.5s ;
+}
+.slider-arrow:hover  i {
+    position: absolute;
+    color: #f25454;
+}
+.arrows i{
+    font-size:1.5rem;
+    color: #fff;
+    transition: width 0.5s ;
+}
+
+.nav-social{
+    justify-content: flex-start !important;
+}
+li a i {
+    font-size: 1rem;
+     color:#fff;
+    
+}
+
+.button{
+    width: 2%;
+    height: 6%;
+    border: 1px solid #fff;
+    position: absolute;
+    bottom: 11rem;
+    left: 49%;
+    z-index: 888888;
+}
+.point
+{
+    position: relative;
+    transform: translatey(-50);
+    top: 10px;
+    width: 10px;
+    height: 20%;
+    border-radius: 50%;
+    animation: moving 2s infinite ease-in;
+}
+@keyframes moving{
+    0%{top: 10px; opacity: 1; }
+    20%{top: 15px;opacity: 0.7; }
+    40%{top: 25px; opacity: 0;}
+    60%{top: 45px; opacity: 0;}
+    80%{ opacity:0; top: 50px;} 
+    100%{top: 60px; opacity: 0;} 
+    
+}
+
+
+/* about section */
+.percent
+{
+    height: 4px;
+}
+/* our team section */
+.team-Img{
+    position: relative;
+
+}
+
+.team-Img:hover .layer{
+    opacity: 1;
+    cursor: pointer;
+}
+ .layer
+{
+     position: absolute;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     opacity: 0;
+    padding-top: 50%;
+    background-color: rgba(228, 48, 63, 0.8);
+    transition: opacity 0.5s ;
+}
+
+.heading{
+    text-align: center;
+    position: relative;
+}
+.heading h1 
+{
+    position: relative;
+    color: #e9e9e9;
+    font-size: 5rem;
+    font-weight: 700;
+    opacity: 5;
+   padding-top:  5rem ;
+}
+.heading h2
+{
+    
+    position: absolute;
+    bottom: 5%;
+    left: 40%;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.heading:hover .underLine{
+   width: 60px;
+}
+.underLine{
+    position: relative;
+    left: 48%;
+    height: 1.7px;
+    width: 5%;
+   transition: width 0.5s;
+}
+
+/* services section */
+.serv1 i
+{
+    font-size: 25px;
+}
+.serv1:hover h5 {
+    color: #f25454;
+}
+   
+
+/* Reviews section */
+
+
+.client-slider h5{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+/* .client-title hr{
+    width: 40px;
+} */
+.client-title:hover hr{
+    width: 80px;
+}
+
+.client-slider p{
+padding-top: 50px;
+}
+
+/* contact section */
+.heading-blog{
+    position: relative;
+    text-align: center;
+}
+.heading-blog h1
+{
+    position: relative;
+    color: #e9e9e9;
+    font-size: 5rem;
+    font-weight: 700;
+    opacity: 5;
+   padding-top:  5rem ;
+}
+
+.heading-blog h2
+{
+    position: absolute;
+     top: 7.5rem;
+    left: 35%;
+   
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.heading-blog:hover .underLine {
+    width: 60px;
+}
+
+
+
+ .icon i {
+    font-size: 2rem;
+    padding-right: 1.3rem;
+    
+}
+.contactInfo:hover h5{
+    color: #f25454;
+}
+
+/* footer */
+
+.conact-info{
+    background-image: url("../images/map-footer.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.li-posts a
+{
+    
+  color: #b0b0b0;
+  border: 1px solid #b0b0b0;
+  text-decoration: none;
+  padding: 3px 10px ;
+  display: block;
+  float: left;
+  margin-right: 8px;
+  margin-bottom:8px; 
+ border-radius: 3px;
+}
+
+
+.ul-posts a ,p {
+    text-decoration: none;
+    color: #b0b0b0;
+}
+.footer-end  {
+   color:  #0c0c0c ;
+    border: 1px solid #3f3d3d;
+}
+.ficon{
+   color: white;
+   transition: all 0.4s;
+}
+.ficon:hover{
+    color: #f25454;
+}
+
+.tag:hover{
+    color: #f25454;
+    border: 1px solid  #f25454;
+}
+/* .clients img{
+    height: 100px;
+    width: 100px;
+}
+.clients {
+    width:100px ;
+} */
+
